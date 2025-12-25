@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Test Company LLC | Contact</title>
+  <meta name="description" content="Contact Test Company LLC in San Antonio, TX. Call, email, or send a request for a quote." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html">
+          <span class="name">Test Company LLC</span>
+          <span class="tagline">Simple, reliable service in San Antonio</span>
+        </a>
+
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 class="page-title">Contact</h1>
+      <p class="page-subtitle">
+        Reach out and tell us what you need. We will respond as soon as possible.
+      </p>
+
+      <section class="section grid grid-2" aria-label="Contact details and quick message">
+        <div class="card">
+          <h2 class="service-title">Business Info</h2>
+          <ul class="contact-list">
+            <li><span class="contact-label">Business:</span> Test Company LLC</li>
+            <li>
+              <span class="contact-label">Phone:</span>
+              <a href="tel:12132221111">213-222-1111</a>
+            </li>
+            <li>
+              <span class="contact-label">Email:</span>
+              <a href="mailto:testcompany@testemail.com">testcompany@testemail.com</a>
+            </li>
+            <li><span class="contact-label">Location:</span> San Antonio, TX</li>
+          </ul>
+
+          <p class="small-note">
+            Business hours and service area can be added here if needed.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2 class="service-title">Quick Request</h2>
+          <p class="service-desc">
+            Prefer email? Copy and paste the details below into an email and send it to us.
+          </p>
+
+          <div class="section" aria-label="Email template">
+            <div class="card" style="background: #fff;">
+              <p><strong>Subject:</strong> Quote Request</p>
+              <p><strong>Message:</strong></p>
+              <p>
+                Hello Test Company LLC,<br />
+                I would like a quote for: [Describe what you need]<br />
+                Address or area: [Location]<br />
+                Best way to reach me: [Phone or Email]<br />
+                Timeline: [When you need it]<br />
+                Thank you.
+              </p>
+            </div>
+          </div>
+
+          <p class="small-note">
+            Or just call: <a href="tel:12132221111">213-222-1111</a>
+          </p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Test Company LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Optional tiny helper: updates the year automatically.
+    // Remove this script if you want HTML-only with no JavaScript.
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
