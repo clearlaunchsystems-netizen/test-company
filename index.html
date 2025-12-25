@@ -1,1 +1,78 @@
-This site is under construction.
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Test Company LLC | Home</title>
+  <meta name="description" content="Test Company LLC provides reliable local business services for homeowners and small businesses in San Antonio, TX." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html">
+          <span class="name">Test Company LLC</span>
+          <span class="tagline">Simple, reliable service in San Antonio</span>
+        </a>
+
+        <div class="nav-links">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 class="page-title">Trusted local help for property and small business needs</h1>
+      <p class="page-subtitle">
+        Test Company LLC helps homeowners, landlords, and small business owners in San Antonio, TX
+        with dependable, straightforward services. Clear communication, fair pricing, and work done right.
+      </p>
+
+      <a class="button" href="contact.html">Request a Quote</a>
+
+      <section class="section grid grid-2" aria-label="Highlights">
+        <div class="card">
+          <h2 class="service-title">Fast, clear communication</h2>
+          <p class="service-desc">
+            You get timely updates, simple explanations, and zero runaround from start to finish.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2 class="service-title">Local, practical solutions</h2>
+          <p class="service-desc">
+            We focus on what actually works for real properties and real budgets in San Antonio.
+          </p>
+        </div>
+      </section>
+
+      <section class="section card" aria-label="Next steps">
+        <h2 class="service-title">Not sure what you need?</h2>
+        <p class="service-desc">
+          Tell us what you are trying to solve and we will point you to the right service or next step.
+        </p>
+        <p class="small-note">
+          Prefer the phone? Call <a href="tel:12132221111">213-222-1111</a>.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Test Company LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Optional tiny helper: updates the year automatically.
+    // Remove this script if you want HTML-only with no JavaScript.
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
