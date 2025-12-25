@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Test Company LLC | Services</title>
+  <meta name="description" content="Explore the services offered by Test Company LLC in San Antonio, TX." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html">
+          <span class="name">Test Company LLC</span>
+          <span class="tagline">Simple, reliable service in San Antonio</span>
+        </a>
+
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="services.html" aria-current="page">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 class="page-title">Services</h1>
+      <p class="page-subtitle">
+        Below are the core services Test Company LLC provides. Each one is designed to be simple,
+        practical, and easy to understand.
+      </p>
+
+      <section class="section grid" aria-label="Service list">
+        <div class="card">
+          <h2 class="service-title">On-site inspections</h2>
+          <p class="service-desc">
+            We visit the property or location, document what we see, and provide a clear summary you can use to make decisions.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2 class="service-title">Photo and video documentation</h2>
+          <p class="service-desc">
+            High quality photos and short videos that show current conditions, progress, and key details that matter.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2 class="service-title">Status updates and check-ins</h2>
+          <p class="service-desc">
+            Scheduled check-ins that confirm work is happening, note changes, and help reduce surprises.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2 class="service-title">Basic reports</h2>
+          <p class="service-desc">
+            Simple written reports in plain language, including issues found, suggested next steps, and supporting media.
+          </p>
+        </div>
+      </section>
+
+      <section class="section card" aria-label="Call to action">
+        <h2 class="service-title">Need one visit or ongoing help?</h2>
+        <p class="service-desc">
+          Tell us what you need and we will recommend the best option.
+        </p>
+        <p class="small-note">
+          <a class="button" href="contact.html">Contact Us</a>
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Test Company LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Optional tiny helper: updates the year automatically.
+    // Remove this script if you want HTML-only with no JavaScript.
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
